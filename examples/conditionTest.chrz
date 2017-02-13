@@ -1,0 +1,56 @@
+procedura główna
+{
+    zmienna a;
+    zmienna b;
+    zmienna c;
+    zmienna out;
+    
+    a = 5;
+    b = 7;
+    c = 0;
+    
+    jeżeli( 1 )
+    {
+        out = a;
+        wypisz;
+    };
+    
+    jeżeli( 0 )
+    {
+        out = b;
+        wypisz;
+    };
+    
+    jeżeli( c )
+    {
+        out = b;
+        wypisz;
+    };
+    
+    jeżeli( a )
+    {
+        out = a;
+        wypisz;
+    };
+    
+    jeżeli( b > a )
+    {
+        out = a;
+        wypisz;
+    };
+    
+    jeżeli( c == b )
+    {
+        out = b;
+        wypisz;
+    };
+    
+    dopóki( a > b - a )dopóty
+    {
+        a = a - 1;
+        out = a;
+        wypisz;
+    };
+
+    powrót;
+}$

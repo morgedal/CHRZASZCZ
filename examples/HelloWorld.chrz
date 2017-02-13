@@ -1,0 +1,42 @@
+procedura główna
+{
+    zmienna a;
+    zmienna b;
+
+    skręćWPrawo;
+    powtórz(9)
+    {
+        idź;
+    };
+    skręćWPrawo;
+    powtórz(9)
+    {
+        idź;
+    };
+    kwadrat;
+    
+    a=59;
+    b=72;
+    a=a*b;
+    b=b*a;
+    jeżeli(a!=b)
+    {
+        idź;
+        idź;
+    };
+    
+    powrót;
+}$
+
+procedura kwadrat
+{
+    powtórz(4)
+    {
+        idź;
+        połóżCegłę;
+        idź;
+        połóżCegłę;
+        skręćWPrawo;
+    };
+    powrót;
+}$

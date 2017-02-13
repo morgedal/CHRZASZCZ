@@ -1,0 +1,22 @@
+procedura główna
+{
+    zmienna out;
+    out = 6;
+    skręćWPrawo;
+    rekurencja;
+    powrót;
+}$
+
+procedura rekurencja
+{
+    wypisz;
+    out = out-1;
+    
+    jeżeli( out )
+    {
+        idź;
+        rekurencja;
+    };
+    
+    powrót;
+}$

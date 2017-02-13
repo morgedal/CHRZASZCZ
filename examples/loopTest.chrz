@@ -1,0 +1,21 @@
+procedura główna
+{
+    zmienna out;
+    out = 0;
+    powtórz(4)
+    {
+        out = out+1;
+        wypisz;
+        powtórz(3)
+        {
+        out = out+10;
+        wypisz;
+            powtórz(2)
+            {
+                out = out+100;
+                wypisz;
+            };
+        };
+    };
+    powrót;
+}$

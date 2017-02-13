@@ -1,0 +1,23 @@
+procedura główna
+{        
+    zmienna tmp;    
+    
+    powtórz(4)
+    {    
+        skręćWPrawo;
+        idź;
+        sprawdźOdległość;
+        tmp = odległość > 0;
+        dopóki( tmp )dopóty
+        {
+            idź;
+            sprawdźOdległość;
+            tmp = odległość > 0;
+        };
+        zabierzCegłę;
+    };
+
+    
+    powrót;
+}$
+
